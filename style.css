@@ -1,5 +1,5 @@
 /* ----------------------------------------------
-:: Template Name: Yummy Blog - Food Blog Template
+:: Template Name: hisie Blog - Food Blog Template
 :: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com
 :: Version: v1.0.0
@@ -10,7 +10,7 @@
 :: 1.0 Base CSS
 :: 2.0 Top Header Area CSS
 :: 3.0 Menu Area CSS
-:: 4.0 Wellcome Area CSS 
+:: 4.0 Welcome Area CSS 
 :: 5.0 Top Feature Area CSS 
 :: 6.0 Blog Area CSS 
 :: 7.0 Instagram Area CSS 
@@ -255,7 +255,7 @@ li {
     font-family: 'Shadows Into Light Two', cursive !important;
 }
 
-.yummy-table {
+.hisie-table {
     display: table;
     height: 100%;
     left: 0;
@@ -265,7 +265,7 @@ li {
     z-index: 2;
 }
 
-.yummy-table-cell {
+.hisie-table-cell {
     display: table-cell;
     vertical-align: middle;
 }
@@ -281,9 +281,9 @@ li {
     z-index: 999999;
 }
 
-.yummy-load {
-    -webkit-animation: 2000ms linear 0s normal none infinite running yummy-load;
-    animation: 2000ms linear 0s normal none infinite running yummy-load;
+.hisie-load {
+    -webkit-animation: 2000ms linear 0s normal none infinite running hisie-load;
+    animation: 2000ms linear 0s normal none infinite running hisie-load;
     background: transparent none repeat scroll 0 0;
     border-color: #dddddd #dddddd #fec89a;
     border-radius: 50%;
@@ -297,7 +297,7 @@ li {
     z-index: 9;
 }
 
-@-webkit-keyframes yummy-load {
+@-webkit-keyframes hisie-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -308,7 +308,7 @@ li {
     }
 }
 
-@keyframes yummy-load {
+@keyframes hisie-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -354,46 +354,11 @@ li {
     margin-right: 0;
 }
 
-.top_header_area .signup-search-area {
-    height: 40px;
-    position: relative;
-    z-index: 3;
-}
-
-.top_header_area .signup-search-area a {
-    font-size: 13px;
-    color: #222;
-}
 
 .top_header_area .signup-search-area .login a {
     margin-right: 13px;
     border-right: 2px solid #c2c2c2;
     padding-right: 13px;
-}
-
-.top_header_area .signup-search-area .search_button {
-    margin-left: 54px;
-}
-
-#searchBtn {
-    position: relative;
-    z-index: 8;
-}
-
-.search-hidden-form {
-    position: absolute;
-    width: 100%;
-    z-index: 4;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    font-size: 12px;
 }
 
 .search-hidden-form.search-form-open {
@@ -402,43 +367,11 @@ li {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-.search-hidden-form #search-anything {
-    width: 100%;
-    height: 30px;
-    border: 1px solid #ddd;
-    top: 5px;
-    position: relative;
-    padding: 5px 10px;
-}
-
-.search-hidden-form span {
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    display: block;
-    text-align: center;
-    top: 5px;
-    right: 0;
-    border: 1px solid #ddd;
-    color: #888;
-    cursor: pointer;
-    z-index: 5;
-    font-size: 13px;
-    border-left: none;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.search-hidden-form span:hover {
-    color: #000;
-}
-
 /* --------------------
 :: 3.0 Menu Area CSS
 -------------------- */
 
-.logo_area .yummy-logo {
+.logo_area .hisie-logo {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 60px;
     margin-bottom: 0;
@@ -846,7 +779,7 @@ li {
     border-bottom: 1px solid #eeeeee;
 }
 
-.footer-logo-area .yummy-logo {
+.footer-logo-area .hisie-logo {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 60px;
     margin-bottom: 0;
@@ -1231,16 +1164,16 @@ li {
     background-color: #6d4025;
 }
 
-.yummy-blockquote {
+.hisie-blockquote {
     padding-left: 30px;
     border-left: 2px solid #fec89a;
 }
 
-.yummy-blockquote h5 {
+.hisie-blockquote h5 {
     font-size: 18px;
 }
 
-.yummy-blockquote h6 {
+.hisie-blockquote h6 {
     font-size: 14px;
     text-transform: uppercase;
 }
