@@ -207,7 +207,7 @@ ol {
 }
 
 #scrollUp {
-    bottom: 55px;
+    bottom: 20px;
     font-size: 14px;
     right: 50%;
     width: 30px;
@@ -689,7 +689,7 @@ li {
 
 .single-post h2:hover,
 .single-post h4:hover {
-    color: #fec89af;
+    color: #fec89a;
 }
 
 .single-post p {
