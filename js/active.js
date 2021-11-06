@@ -27,7 +27,7 @@
             }
         })
         // :: 2.0 Instagram Slider Active Code
-        $(".instargram_area").owlCarousel({
+        $(".ig_area").owlCarousel({
             items: 6,
             loop: true,
             autoplay: true,
@@ -81,7 +81,7 @@
     // :: 4.0 ScrollUp Active JS
     if ($.fn.scrollUp) {
         $.scrollUp({
-            scrollSpeed: 1500,
+            scrollSpeed: 500,
             scrollText: '<i class="fa fa-arrow-up" aria-hidden="true"></i>'
         });
     }

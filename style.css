@@ -1,33 +1,6 @@
-/* ----------------------------------------------
-:: Template Name: hisie Blog - Food Blog Template
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com
-:: Version: v1.0.0
-:: Last Updated: 11-13-2017
----------------------------------------------- */
-
-/* -------- [Master Stylesheet] --------
-:: 1.0 Base CSS
-:: 2.0 Top Header Area CSS
-:: 3.0 Menu Area CSS
-:: 4.0 Welcome Area CSS 
-:: 5.0 Top Feature Area CSS 
-:: 6.0 Blog Area CSS 
-:: 7.0 Instagram Area CSS 
-:: 8.0 Footer Social Area CSS 
-:: 9.0 Goole Map Area CSS
-:: 10.0 Sidebar Area CSS
-:: 11.0 Breadcumb Area CSS
-:: 12.0 Paginatio Area CSS
-:: 13.0 Contact Area CSS
-:: 14.0 Single Blog CSS
------------------------------------ */
-
-/* ***** Fonts ***** */
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Quicksand:300,400,500,700|Shadows+Into+Light+Two");
 
-/* ***** Import CSS ***** */
+/* import css */
 
 @import "css/bootstrap/bootstrap.min.css";
 @import "css/others/animate.css";
@@ -37,9 +10,7 @@
 @import "css/others/font-awesome.min.css";
 @import "css/others/pe-icon-7-stroke.css";
 
-/* --------------------
-:: 1.0 Base CSS
--------------------- */
+/* base css*/
 
 * {
   margin: 0;
@@ -362,12 +333,10 @@ li {
 .search-hidden-form.search-form-open {
   z-index: 18;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -hs-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-/* --------------------
-:: 3.0 Menu Area CSS
--------------------- */
+/* menu */
 
 .logo_area .hisie-logo {
   font-family: "Shadows Into Light Two", cursive;
@@ -408,9 +377,7 @@ li {
   background-color: #f8f9fa;
 }
 
-/* --------------------
-:: 4.0 Wellcome Area CSS 
--------------------- */
+/* welcome */
 
 .welcome-single-slide {
   position: relative;
@@ -443,7 +410,7 @@ li {
   bottom: 0;
 }
 
-.welcome-single-slide .post-date-commnents a {
+.welcome-single-slide .post-date-comments a {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
@@ -452,15 +419,15 @@ li {
   margin-bottom: 10px;
 }
 
-.welcome-single-slide .post-date-commnents a:hover {
+.welcome-single-slide .post-date-comments a:hover {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.welcome-single-slide .post-date-commnents a:first-child {
+.welcome-single-slide .post-date-comments a:first-child {
   margin-right: 30px;
 }
 
-.welcome-single-slide .post-date-commnents a:first-child:after {
+.welcome-single-slide .post-date-comments a:first-child:after {
   width: 2px;
   height: 80%;
   content: "";
@@ -497,25 +464,23 @@ li {
   cursor: url(img/core-img/next.png), auto !important;
 }
 
-/* --------------------
-:: 5.0 Top Feature Area CSS 
--------------------- */
+/* feature */
 
 .categories_area {
   padding: 80px 0 50px 0;
 }
 
-.single_catagory {
+.single_category {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
 }
 
-.single_catagory img {
+.single_category img {
   border-radius: 10px;
 }
 
-.catagory-title {
+.category-title {
   width: 200px;
   height: 50px;
   background-color: #fff;
@@ -530,24 +495,22 @@ li {
   transition-duration: 500ms;
 }
 
-.single_catagory:hover .catagory-title {
+.single_category:hover .category-title {
   background-color: #fec89a;
 }
 
-.catagory-title a > h5 {
+.category-title a > h5 {
   margin-bottom: 0;
   line-height: 50px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
 }
 
-.single_catagory:hover .catagory-title a > h5 {
+.single_category:hover .category-title a > h5 {
   color: #fff;
 }
 
-/* --------------------
-:: 6.0 Blog Area CSS 
--------------------- */
+/* blog */
 
 .post-thumb img {
   border-radius: 30px;
@@ -564,43 +527,13 @@ li {
   justify-content: space-between;
 }
 
-.post-author a,
-.post-date a,
-.post-favourite a,
-.post-comments a,
-.post-share a {
+.post-date a{
   color: #b5aec4;
   font-size: 14px;
 }
 
-.post-author a:hover,
-.post-date a:hover,
-.post-favourite a:hover,
-.post-comments a:hover,
-.post-share a:hover {
+.post-date a:hover {
   color: #000;
-}
-
-.post-favourite a,
-.post-comments a {
-  margin-right: 15px;
-}
-
-.post-author a {
-  margin-right: 30px;
-  position: relative;
-  z-index: 1;
-}
-
-.post-author a:after {
-  width: 2px;
-  height: 60%;
-  content: "";
-  position: absolute;
-  top: 20%;
-  right: -14px;
-  z-index: 2;
-  background-color: #b5aec4;
 }
 
 .single-post {
@@ -642,7 +575,7 @@ li {
   border: 1px solid #000;
 }
 
-/* List Blog Area CSS */
+/*blogs list */
 
 .list-blog.single-post .post-thumb,
 .list-blog.single-post .post-content {
@@ -671,9 +604,7 @@ li {
   margin-bottom: 0;
 }
 
-/* --------------------
-:: 7.0 Instagram Area CSS 
--------------------- */
+/*ig section */
 
 .instagram_gallery_item {
   position: relative;
@@ -691,7 +622,7 @@ li {
   height: 100%;
   left: 0;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -hs-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   position: absolute;
   top: 0;
   -webkit-transition-duration: 500ms;
@@ -702,7 +633,7 @@ li {
 
 .instagram_gallery_item:hover .hover_overlay {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -hs-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .instagram_gallery_item .follow-me a {
@@ -711,12 +642,12 @@ li {
   font-weight: 400;
 }
 
-.instargram_area {
+.ig_area {
   position: relative;
   z-index: 1;
 }
 
-.instargram_area .owl-prev {
+.ig_area .owl-prev {
   position: absolute;
   width: 10%;
   background-color: transparent;
@@ -727,7 +658,7 @@ li {
   z-index: 9;
 }
 
-.instargram_area .owl-next {
+.ig_area .owl-next {
   position: absolute;
   width: 10%;
   background-color: transparent;
@@ -737,9 +668,7 @@ li {
   cursor: url(img/core-img/next.png), auto !important;
 }
 
-/* --------------------
-:: 8.0 Footer Social Area CSS 
--------------------- */
+/* footer */
 
 .footer-social-area {
   border-bottom: 1px solid #eeeeee;
@@ -819,19 +748,6 @@ li {
   padding-left: 55em;
 }
 
-/* --------------------
-:: 9.0 Goole Map Area CSS
--------------------- */
-
-#googleMap {
-  height: 620px;
-  width: 100%;
-}
-
-/* --------------------
-:: 10.0 Sidebar Area CSS
--------------------- */
-
 /* About me */
 
 .single-widget-area {
@@ -882,7 +798,7 @@ li {
 
 /* popular post */
 
-.popular-post-widget .single-populer-post img {
+.popular-post-widget .single-popular-post img {
   margin-right: 10px;
   border-radius: 20px;
   margin-bottom: 30px;
@@ -890,25 +806,25 @@ li {
   align-self: center;
 }
 
-.popular-post-widget .single-populer-post:last-of-type img {
+.popular-post-widget .single-popular-post:last-of-type img {
   margin-bottom: 0;
 }
 
-.popular-post-widget .single-populer-post img {
+.popular-post-widget .single-popular-post img {
   width: calc(50% - 10px);
 }
 
-.popular-post-widget .single-populer-post img,
-.popular-post-widget .single-populer-post .post-content {
+.popular-post-widget .single-popular-post img,
+.popular-post-widget .single-popular-post .post-content {
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
 }
 
-.popular-post-widget .single-populer-post .post-content {
+.popular-post-widget .single-popular-post .post-content {
   margin-left: 10px;
 }
 
-.popular-post-widget .single-populer-post .post-content > p {
+.popular-post-widget .single-popular-post .post-content > p {
   font-size: 14px;
   color: #b5aec4;
   font-weight: 400;
@@ -1011,10 +927,10 @@ li {
 }
 
 /* --------------------
-:: 11.0 Breadcumb Area CSS
+:: 11.0 archive Area CSS
 -------------------- */
 
-.breadcumb-area {
+.archive-area {
   width: 100%;
   height: 200px;
   background-position: center center;
@@ -1023,7 +939,7 @@ li {
   z-index: 1;
 }
 
-.breadcumb-area:after {
+.archive-area:after {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1034,12 +950,12 @@ li {
   z-index: -1;
 }
 
-.breadcumb-area .bradcumb-title h2 {
+.archive-area .archive-title h2 {
   font-size: 48px;
   color: #fff;
 }
 
-.breadcumb-nav .breadcrumb {
+.archive-nav .archive {
   padding: 0;
   margin-bottom: 0;
   list-style: none;
@@ -1048,19 +964,17 @@ li {
   margin-top: 30px;
 }
 
-.breadcumb-nav .breadcrumb .breadcrumb-item a {
+.archive-nav .archive .archive-item a {
   color: #232d37;
   font-size: 16px;
 }
 
-.breadcrumb-item + .breadcrumb-item:before {
+.archive-item + .archive-item:before {
   content: "\f105";
   font-family: "FontAwesome";
 }
 
-/* --------------------
-:: 12.0 Paginatio Area CSS
--------------------- */
+/* pagination */
 
 .pagination-area {
   -webkit-box-pack: justify;
@@ -1090,51 +1004,8 @@ li {
   margin-bottom: 0;
 }
 
-/* --------------------
-:: 13.0 Contact Area CSS
--------------------- */
 
-.contact-form .form-control,
-.comment-form .form-control {
-  border: 1px solid #ebebeb;
-  height: 50px;
-}
-
-.contact-form .form-control:focus,
-.comment-form .form-control:focus {
-  border: 1px solid #000;
-}
-
-.contact-form textarea.form-control,
-.comment-form textarea.form-control {
-  height: 130px;
-}
-
-.contact-btn {
-  margin-top: 50px;
-  width: 160px;
-  height: 40px;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #fff;
-  background-color: #fec89a;
-  border-radius: 30px;
-}
-
-.contact-btn:hover {
-  color: #fff;
-  background-color: #fec89a;
-}
-
-.contact-form-sidebar {
-  background-size: cover;
-  background-position: center center;
-}
-
-/* -------------------- 
-:: 14.0 Single Blog CSS
--------------------- */
+/* single post */
 
 .single-post-share-info a {
   width: 30px;
@@ -1342,63 +1213,4 @@ li {
 .comment-wrapper .comment-content a.active {
   color: #fff;
   background-color: #f4a261;
-}
-
-/* Bg Pattern */
-.bg-pattern {
-  background-attachment: fixed;
-  background-position: center center;
-  background-image: url(img/bg-img/bg-pattern.jpg);
-  position: relative;
-  background-size: cover;
-  z-index: 1;
-}
-.bg-pattern:after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  content: "";
-  background-color: #f4a261;
-  z-index: -1;
-}
-
-#pattern-switcher {
-  width: 120px;
-  background-color: #fec89a;
-  position: fixed;
-  top: 15%;
-  z-index: 9999;
-  cursor: pointer;
-  height: 50px;
-  right: 0;
-  color: #fff;
-  font-size: 12px;
-  line-height: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-}
-
-#pattern-switcher.pattern-remove {
-  right: -200px;
-}
-
-#patter-close > i {
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  background-color: #111;
-  font-size: 11px;
-  line-height: 20px;
-  border-radius: 50%;
-  right: 110px;
-  top: calc(15% - 10px);
-  text-align: center;
-  z-index: 99999;
-  color: #fff;
-  cursor: pointer;
 }
