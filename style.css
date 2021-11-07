@@ -333,7 +333,7 @@ li {
 .search-hidden-form.search-form-open {
   z-index: 18;
   opacity: 1;
-  -hs-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -ms-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 /* menu */
@@ -622,7 +622,7 @@ li {
   height: 100%;
   left: 0;
   opacity: 0;
-  -hs-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   position: absolute;
   top: 0;
   -webkit-transition-duration: 500ms;
@@ -633,7 +633,7 @@ li {
 
 .instagram_gallery_item:hover .hover_overlay {
   opacity: 1;
-  -hs-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -ms-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .instagram_gallery_item .follow-me a {
@@ -927,10 +927,10 @@ li {
 }
 
 /* --------------------
-:: 11.0 archive Area CSS
+:: 11.0 arc Area CSS
 -------------------- */
 
-.archive-area {
+.arc-area {
   width: 100%;
   height: 200px;
   background-position: center center;
@@ -939,7 +939,7 @@ li {
   z-index: 1;
 }
 
-.archive-area:after {
+.arc-area:after {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -950,12 +950,12 @@ li {
   z-index: -1;
 }
 
-.archive-area .archive-title h2 {
+.arc-area .arc-title h2 {
   font-size: 48px;
   color: #fff;
 }
 
-.archive-nav .archive {
+.arc-nav .arc {
   padding: 0;
   margin-bottom: 0;
   list-style: none;
@@ -964,12 +964,12 @@ li {
   margin-top: 30px;
 }
 
-.archive-nav .archive .archive-item a {
+.arc-nav .arc .arc-item a {
   color: #232d37;
   font-size: 16px;
 }
 
-.archive-item + .archive-item:before {
+.arc-item + .arc-item:before {
   content: "\f105";
   font-family: "FontAwesome";
 }

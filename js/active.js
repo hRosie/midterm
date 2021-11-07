@@ -26,7 +26,7 @@
                 }
             }
         })
-        // :: 2.0 Instagram Slider Active Code
+        // Instagram Slider Active Code
         $(".ig_area").owlCarousel({
             items: 6,
             loop: true,
@@ -55,7 +55,7 @@
                 }
             }
         })
-        // :: 3.0 Related Post Slider Active Code
+        // Related Post Slider Active Code
         $(".related-post-slider").owlCarousel({
             items: 3,
             loop: true,
@@ -78,7 +78,7 @@
         })
     }
 
-    // :: 4.0 ScrollUp Active JS
+    //ScrollUp Active JS
     if ($.fn.scrollUp) {
         $.scrollUp({
             scrollSpeed: 500,
@@ -86,7 +86,7 @@
         });
     }
 
-    // :: 5.0 CounterUp Active JS
+    // CounterUp Active JS
     if ($.fn.counterUp) {
         $('.counter').counterUp({
             delay: 10,
@@ -94,7 +94,7 @@
         });
     }
 
-    // :: 6.0 PreventDefault a Click
+    // PreventDefault a Click
     $("a[href='#']").on('click', function ($) {
         $.preventDefault();
     });
