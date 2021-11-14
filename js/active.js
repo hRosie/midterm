@@ -2,7 +2,7 @@
     'use strict';
 
     if ($.fn.owlCarousel) {
-        // :: 1.0 Welcome Post Slider Active Code
+        // Welcome Post Slider Active Code
         $(".welcome-post-sliders").owlCarousel({
             items: 4,
             loop: true,

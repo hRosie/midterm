@@ -324,13 +324,13 @@ li {
   margin-right: 0;
 }
 
-.top_header_area .signup-search-area .login a {
+.top_header_area .signup-searchiveh-area .login a {
   margin-right: 13px;
   border-right: 2px solid #c2c2c2;
   padding-right: 13px;
 }
 
-.search-hidden-form.search-form-open {
+.searchiveh-hidden-form.searchiveh-form-open {
   z-index: 18;
   opacity: 1;
   -ms-filter: "progID:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -927,10 +927,10 @@ li {
 }
 
 /* --------------------
-:: 11.0 arc Area CSS
+:: 11.0 archive Area CSS
 -------------------- */
 
-.arc-area {
+.ar-area {
   width: 100%;
   height: 200px;
   background-position: center center;
@@ -939,39 +939,39 @@ li {
   z-index: 1;
 }
 
-.arc-area:after {
+.ar-area:after {
   width: 100%;
   height: 100%;
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   background-color: rgba(35, 45, 55, 0.7);
   z-index: -1;
 }
 
-.arc-area .arc-title h2 {
+.ar-area .arc-title h2 {
   font-size: 48px;
   color: #fff;
 }
 
-.arc-nav .arc {
+.ar-nav .arch {
   padding: 0;
   margin-bottom: 0;
   list-style: none;
   background-color: transparent;
-  border-radius: 0.25rem;
+  border-radius: .25rem;
   margin-top: 30px;
 }
 
-.arc-nav .arc .arc-item a {
+.ar-nav .arch .arch-item a {
   color: #232d37;
   font-size: 16px;
 }
 
-.arc-item + .arc-item:before {
+.arch-item + .arch-item:before {
   content: "\f105";
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome'
 }
 
 /* pagination */
