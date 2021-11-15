@@ -527,7 +527,7 @@ li {
   justify-content: space-between;
 }
 
-.post-date a{
+.post-date a {
   color: #b5aec4;
   font-size: 14px;
 }
@@ -943,7 +943,7 @@ li {
   width: 100%;
   height: 100%;
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   background-color: rgba(35, 45, 55, 0.7);
@@ -960,7 +960,7 @@ li {
   margin-bottom: 0;
   list-style: none;
   background-color: transparent;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin-top: 30px;
 }
 
@@ -971,7 +971,7 @@ li {
 
 .arch-item + .arch-item:before {
   content: "\f105";
-  font-family: 'FontAwesome'
+  font-family: "FontAwesome";
 }
 
 /* pagination */
@@ -1003,7 +1003,6 @@ li {
 .contact-info-area .single-contact-info p {
   margin-bottom: 0;
 }
-
 
 /* single post */
 

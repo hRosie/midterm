@@ -25,7 +25,7 @@
                     items: 4
                 }
             }
-        })
+        });
         // Instagram Slider Active Code
         $(".ig_area").owlCarousel({
             items: 6,
@@ -54,7 +54,7 @@
                     items: 6
                 }
             }
-        })
+        });
         // Related Post Slider Active Code
         $(".related-post-slider").owlCarousel({
             items: 3,
@@ -75,7 +75,7 @@
                     items: 3
                 }
             }
-        })
+        });
     }
 
     //ScrollUp Active JS
